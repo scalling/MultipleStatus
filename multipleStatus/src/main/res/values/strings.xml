@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="multiple_loading">正在加载...</string>
+    <string name="multiple_empty">暂无内容</string>
+    <string name="multiple_network">网络异常</string>
+    <string name="multiple_retry">点击重试</string>
+    <string name="multiple_error">加载失败</string>
+</resources>

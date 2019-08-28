@@ -6,7 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.zm.common.MultipleStatusView;
+import com.zm.common.view.MultipleStatusView;
 
 public class MainActivity extends AppCompatActivity {
     MultipleStatusView multipleStatusView;

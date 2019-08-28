@@ -1,4 +1,4 @@
-package com.zm.common;
+package com.zm.common.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
+
+import com.zm.common.R;
 
 import java.util.ArrayList;
 

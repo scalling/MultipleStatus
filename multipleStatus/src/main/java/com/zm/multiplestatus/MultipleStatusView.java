@@ -1,4 +1,4 @@
-package com.zm.multiplestatus;
+package com.zm.common;
 
 import android.content.Context;
 import android.content.res.TypedArray;

@@ -19,13 +19,7 @@
             app:emptyView="@layout/view_empty_view"
             app:loadingView="@layout/view_loading_view"
             app:contentView="@layout/view_content"
-            app:noNetworkView="@layout/view_no_network_view">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text="这是内容"/>
-    </com.zm.multiplestatus.MultipleStatusView>
+            app:noNetworkView="@layout/view_no_network_view"/>
 ```
 ```
         multipleStatusView=findViewById(R.id.multiple_status_view);
@@ -59,11 +53,7 @@
   <com.zm.multiplestatus.MultipleStatusView
             android:id="@+id/multi_status"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:errorView="@layout/view_error_view"
-            app:emptyView="@layout/view_empty_view"
-            app:loadingView="@layout/view_loading_view"
-            app:noNetworkView="@layout/view_no_network_view">
+            android:layout_height="match_parent">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

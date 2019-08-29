@@ -6,9 +6,11 @@
 - 网络异常视图
 - 内容视图
 ## 使用
-
+```
+    implementation 'com.zm.common:MultipleStatus:1.0.0'
+```
 ## 示例
-``
+```
     <com.zm.multiplestatus.MultipleStatusView
             android:id="@+id/multi_status"
             android:layout_width="match_parent"
@@ -24,8 +26,8 @@
                 android:gravity="center"
                 android:text="这是内容"/>
     </com.zm.multiplestatus.MultipleStatusView>
-``
-``
+```
+```
         multipleStatusView=findViewById(R.id.multiple_status_view);
        
         //显示内容视图
@@ -50,10 +52,10 @@
                         multipleStatusView.showContent();
                     }
                 });
-``
+```
 `MultipleStatusView` 继承自 `RelativeLayout`，所以内容视图也可以直接写在 `MultipleStatusView` 内部
 
-``
+```
   <com.zm.multiplestatus.MultipleStatusView
             android:id="@+id/multi_status"
             android:layout_width="match_parent"
@@ -68,7 +70,7 @@
                 android:gravity="center"
                 android:text="这是内容"/>
     </com.zm.multiplestatus.MultipleStatusView>
-``
+```
 
 ## 注意事项
 
